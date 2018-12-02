@@ -1,0 +1,7 @@
+UnitID, UnitName, RoomNo, RoomName, LecturerName, RoomCapacity, NoOfStudentEnrolled,
+ECSI401; SDP01; 21.206; AR6 Room; Dr.Felicity;6;4;
+ECSI402; SDP02; 22.100; FL2 Room; Dr.Berry;5;3;
+ECSI403; IADM01; 25.008; Star Lab; Dr.Harry;8;5;
+ECSI404; IADM02; 24.007; Cisco Lab; Dr.Wells;6;3;
+
+2014015; ESAW; 520; 0; SADE;10;10;

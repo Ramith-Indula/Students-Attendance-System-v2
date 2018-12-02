@@ -1,0 +1,10 @@
+Room_No, Student_ID, Unit_ID, Lecturer_Name,   Date,     Week_No,
+21.206;   2015001;   ECSI401;  Dr.Felicity; 15/12/2015;   01;
+21.206;   2015002;   ECSI401;  Dr.Felicity; 15/12/2015;   01;
+21.206;   2015004;   ECSI401;  Dr.Felicity; 15/12/2015;   01;
+22.100;   2015306;   ECSI402;  Dr.Berry;    30/12/2015;   02;
+22.100;   2015100;   ECSI402;  Dr.Berry;    30/12/2015;   02;
+25.008;   2015202;   ECSI403;  Dr.Harry;    01/01/2016;   01;
+25.008;   2015104;   ECSI403;  Dr.Harry;    01/01/2016;   01;
+24.007;   2015305;   ECSI404;  Dr.Wells;    02/01/2016;   01;
+24.007;   2015203;   ECSI404;  Dr.Wells;    02/01/2016;   01;

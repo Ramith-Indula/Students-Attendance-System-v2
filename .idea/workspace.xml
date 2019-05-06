@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e770b3b4-a238-4c34-8cbc-5b9af37dc0f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/e311a5d7e830395bebbeea31e114d2c57597a85b-details.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/attendence/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/attendence/util/Utils.java" afterDir="false" />
-    </list>
+    <list default="true" id="e770b3b4-a238-4c34-8cbc-5b9af37dc0f9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1033" />
     <option name="height" value="1058" />
@@ -192,15 +188,15 @@
       <option name="presentableId" value="Default" />
       <updated>1543770695183</updated>
       <workItem from="1543770698058" duration="2415000" />
-      <workItem from="1557117422594" duration="293000" />
+      <workItem from="1557117422594" duration="956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2708000" />
+    <option name="totallyTimeSpent" value="3371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14924182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

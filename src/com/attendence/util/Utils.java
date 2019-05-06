@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class Utils {
     //Defining class level variables
-    private static BufferedReader bufferreader;
+    private static BufferedReader bufferrseader;
     private static StringTokenizer stringTokenizer;
     private static ArrayList<Attendance> attendenceObj = new ArrayList<Attendance>();
     private static ArrayList<String> attendenceLog = new ArrayList<String>();

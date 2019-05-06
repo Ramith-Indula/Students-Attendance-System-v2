@@ -109,7 +109,7 @@ public class Utils {
 
     }
 
-    //Count and assigning students enrolled in subjects
+    //Count and assigning studentss enrolled in subjects
     public static ArrayList<StudentDetails> getEnrolledSudents(String unitID) {
         for (StudentDetails d : studentDetailsObj) {
             if (d.getUnitID().equals(unitID)) {

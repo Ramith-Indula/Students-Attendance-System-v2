@@ -13,7 +13,7 @@ public class Utils {
     //Defining class level variables
     private static BufferedReader bufferReaders;
     private static StringTokenizer stringTokenizers;
-    private static ArrayList<Attendance> attendenceObj = new ArrayList<Attendance>();
+    private static ArrayList<Attendance> attendenceObjs = new ArrayList<Attendance>();
     private static ArrayList<String> attendenceLog = new ArrayList<String>();
     private static ArrayList<StudentDetails> studentDetailsObj = new ArrayList<StudentDetails>();
     private static ArrayList<String> studentDetails = new ArrayList<String>();
@@ -57,7 +57,7 @@ public class Utils {
                         stringTokenizers.nextToken(),
                         stringTokenizers.nextToken(),
                         stringTokenizers.nextToken());
-                attendenceObj.add(attendence);
+                attendenceObjs.add(attendence);
             }
 
         }
@@ -65,7 +65,7 @@ public class Utils {
 
     //Filtering attendence by using unit ID
     public static void getAttendanceByUnitID(String unitID) {
-        for (Attendance x : attendenceObj) {
+        for (Attendance x : attendenceObjs) {
             if (x.getUnitID().equals(unitID)) {
             }
 
@@ -124,7 +124,7 @@ public class Utils {
     //Filtering students by using unitID
     public static ArrayList<StudentDetails> getStudentByUnitID(String unitID) {
 
-        for (Attendance x : attendenceObj) {
+        for (Attendance x : attendenceObjs) {
             if (x.getUnitID().equals(unitID)) {
                 for (StudentDetails s : studentDetailsObj) {
                     if (x.getStudentID().equals(s.getStdNum())) {
@@ -196,7 +196,7 @@ public class Utils {
         double occupancy;
 
 
-        for (Attendance a : attendenceObj) {
+        for (Attendance a : attendenceObjs) {
             if (a.getUnitID().equals(unitID)) {
                 attendence++;
                 weekNum = a.getWeekNum();

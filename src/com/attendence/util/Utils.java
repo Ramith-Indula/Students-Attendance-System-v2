@@ -11,7 +11,7 @@ import java.util.StringTokenizer;
 
 public class Utils {
     //Defining class level variables
-    private static BufferedReader bufferreader;
+    private static BufferedReader bufferReader;
     private static StringTokenizer stringTokenizer;
     private static ArrayList<Attendance> attendenceObj = new ArrayList<Attendance>();
     private static ArrayList<String> attendenceLog = new ArrayList<String>();
@@ -31,17 +31,17 @@ public class Utils {
 
         try {
             String sCurrentLine;
-            bufferreader = new BufferedReader(new FileReader(fileName));
+            bufferReader = new BufferedReader(new FileReader(fileName));
 
-            while ((sCurrentLine = bufferreader.readLine()) != null) {
+            while ((sCurrentLine = bufferReader.readLine()) != null) {
                 attendenceLog.add(sCurrentLine);
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             try {
-                if (bufferreader != null)
-                    bufferreader.close();
+                if (bufferReader != null)
+                    bufferReader.close();
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
@@ -76,17 +76,17 @@ public class Utils {
     public static void readStudentDetails(String fileName) {
         try {
             String sCurrentLine;
-            bufferreader = new BufferedReader(new FileReader(fileName));
+            bufferReader = new BufferedReader(new FileReader(fileName));
 
-            while ((sCurrentLine = bufferreader.readLine()) != null) {
+            while ((sCurrentLine = bufferReader.readLine()) != null) {
                 studentDetails.add(sCurrentLine);
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             try {
-                if (bufferreader != null)
-                    bufferreader.close();
+                if (bufferReader != null)
+                    bufferReader.close();
             } catch (IOException ex) {
                 ex.printStackTrace();
 
@@ -144,17 +144,17 @@ public class Utils {
 
         try {
             String sCurrentLine;
-            bufferreader = new BufferedReader(new FileReader(fileName));
+            bufferReader = new BufferedReader(new FileReader(fileName));
 
-            while ((sCurrentLine = bufferreader.readLine()) != null) {
+            while ((sCurrentLine = bufferReader.readLine()) != null) {
                 lecturerDetails.add(sCurrentLine);
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
             try {
-                if (bufferreader != null)
-                    bufferreader.close();
+                if (bufferReader != null)
+                    bufferReader.close();
             } catch (IOException ex) {
                 ex.printStackTrace();
 
@@ -387,10 +387,10 @@ public class Utils {
     public static void readFiles(String filename) {
 
         try {
-            bufferreader = new BufferedReader(new FileReader(filename));
+            bufferReader = new BufferedReader(new FileReader(filename));
             String x;
             int y = 0;
-            while ((x = bufferreader.readLine()) != null) {
+            while ((x = bufferReader.readLine()) != null) {
                 System.out.println("Line #: " + y++ + " " + x);
             }
         } catch (IOException e1) {

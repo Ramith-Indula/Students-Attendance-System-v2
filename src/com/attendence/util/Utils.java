@@ -12,7 +12,7 @@ import java.util.StringTokenizer;
 public class Utils {
     //Defining class level variables
     private static BufferedReader bufferReaders;
-    private static StringTokenizer stringTokenizers;
+    private static StringTokenizer stringTokenizer;
     private static ArrayList<Attendance> attendenceObj = new ArrayList<Attendance>();
     private static ArrayList<String> attendenceLog = new ArrayList<String>();
     private static ArrayList<StudentDetails> studentDetailsObj = new ArrayList<StudentDetails>();
@@ -48,15 +48,15 @@ public class Utils {
         }
         attendenceLog.remove(0);
         for (String s : attendenceLog) {
-            stringTokenizers = new StringTokenizer(s, ",; ");
-            while (stringTokenizers.hasMoreTokens()) {
+            stringTokenizer = new StringTokenizer(s, ",; ");
+            while (stringTokenizer.hasMoreTokens()) {
                 Attendance attendence = new Attendance(
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken());
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken());
                 attendenceObj.add(attendence);
             }
 
@@ -94,13 +94,13 @@ public class Utils {
         }
         studentDetails.remove(0);
         for (String s : studentDetails) {
-            stringTokenizers = new StringTokenizer(s, ",; ");
-            while (stringTokenizers.hasMoreTokens()) {
+            stringTokenizer = new StringTokenizer(s, ",; ");
+            while (stringTokenizer.hasMoreTokens()) {
                 StudentDetails details = new StudentDetails(
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken());
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken());
 
                 studentDetailsObj.add(details);
             }
@@ -162,16 +162,16 @@ public class Utils {
         }
         lecturerDetails.remove(0);
         for (String s : lecturerDetails) {
-            stringTokenizers = new StringTokenizer(s, ",;");
-            while (stringTokenizers.hasMoreTokens()) {
+            stringTokenizer = new StringTokenizer(s, ",;");
+            while (stringTokenizer.hasMoreTokens()) {
                 LecturerDetails details = new LecturerDetails(
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        stringTokenizers.nextToken(),
-                        Integer.parseInt(stringTokenizers.nextToken()),
-                        stringTokenizers.nextToken());
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        stringTokenizer.nextToken(),
+                        Integer.parseInt(stringTokenizer.nextToken()),
+                        stringTokenizer.nextToken());
                 lecturerDetailsObj.add(details);
 
             }
